@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height:180%;
+	color:cyan;
+}
+#header{
+	padding-top:30px;
+	padding-bottom:20px;
+	background:pink;
+}
+#header .title{
+	text-align:center;
+	display: block;
+	font-size:40px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	/* float: left; */
+	color:#ffffff;
+}
+.title .tribute{
+	display:block;
+	font-size:16px;
+	text-transform:none;
+}
+#header #navigation{
+	padding-top:25px;
+	padding-right:30px;
+	float: right;
+}
+#navigation ul li{
+	margin-right:10px;
+}
+#navigation ul li:last-child{
+	margin-right:0;
+}
+#navigation ul li a{
+	font-size:22px;
+	font-weight: bolder;
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff;
+	padding-bottom:10px;
+}
+#navigation ul li a:hover{
+	color:chartreuse;
+	text-decoration: underline;
+	transition: all ease-in 0.2s;
+}
+/* #main .caption{
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+	text-transform:uppercase;
+} */
+#main p{
+	text-align:justify;
+}
+#main img{
+	width:600px;
+	height:400px;
+}
+#personal-life{
+	color:#fff; 
+    padding-bottom:10px;
+	background:#f39c12;
+}
+#personal-life img{
+	height:282px;
+	width:700px;
+}
+/*CAREER SECTION*/
+#career,#personal-life,#intro,#award{
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#fff;
+}
+ .section-title{
+	font-weight: bolder;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:35px;
+	margin-bottom:15px;
+	text-decoration: underline;
+}
+ .section-title:after{
+	content:'';
+	display:block;
+	margin-top:10px;
+}
+#intro{
+	padding-top:40px;
+	background:green;
+}
+#career{
+	background:blueviolet;
+}
+#career img{
+	width:700px;
+	height:282px;
+}
+#award{
+	background:#5c5cea;
+
+}
+#awar{
+    text-align:left;
+	
+}
+
+#award img{
+	height:280px;
+	width:400px;
+}
+#main .fa{
+	font-size:20px;
+}
+.thumbnail{
+	margin-bottom:5px;
+}
+#award a{
+	font-weight:bold;
+}
+#award a:hover{
+	transition:ease-in 0.2s;
+	text-decoration:none;
+	color:#fff;
+}
+th{
+	font-size:20px;
+	text-align:center;
+}
+tbody td:nth-child(2){
+	font-weight:bold;
+	width:200px;
+}
+tbody td:nth-child(3){
+	
+	text-align: right;
+}
+th,td,tr{
+	padding:10px 15px;
+}
+.website{
+	padding-top:30px;
+	font-size:30px;
+}
